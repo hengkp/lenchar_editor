@@ -1,0 +1,9 @@
+name: lenchar_editor
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - flask
+  - pip
+  - pip:
+    - flask

@@ -13,6 +13,7 @@ A simple Flask app to decode, edit, and re-encode `.lenchar` files (custom gzip-
 
 ## Technology
 
+- Conda
 - Python 3
 - Flask
 - Tailwind CSS (via CDN)
@@ -26,18 +27,14 @@ cd lenchar-web-editor
 ```
 2.	(Optional) Create a virtualenv and activate:
 ```bash
-python3 -m venv venv
-source venv/bin/activate
+conda env create -f environment.yml
+conda activate lenchar_editor
 ```
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-4.	Run the app:
+3.	Run the app:
 ```bash
 python app.py
 ```
-5.	Open your browser at http://127.0.0.1:5000.
+4.	Open your browser at http://127.0.0.1:5000.
 
 ## Usage
 
